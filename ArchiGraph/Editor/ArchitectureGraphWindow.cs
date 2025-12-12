@@ -10,11 +10,11 @@ namespace ArchiGraph
         private ArchitectureGraphView _graphView;
         private string _selectedFolder = "Assets";
 
-        [MenuItem("Window/OneS/Architecture Graph")]
+        [MenuItem("Window/ArchiGraph")]
         public static void Open()
         {
             var window = GetWindow<ArchitectureGraphWindow>();
-            window.titleContent = new GUIContent("Architecture Graph");
+            window.titleContent = new GUIContent("ArchiGraph");
         }
 
         private void OnEnable()
